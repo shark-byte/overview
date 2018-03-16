@@ -12,7 +12,7 @@ let generateRandom = (num) => {
   var words = ['hello', 'yo', 'bacon', 'stuff', 'random', 'taste', 'good', 'great', 'bad', 'something', 'white', 'red'];
   var r = Math.floor(Math.random() * words.length-1);
   var names = ['jordyn', 'steve', 'bob', 'bill', 'kevin', 'tyler', 'jen', 'greg', 'ryan'];
-  var price = [1,2,3,4,5,6,7,8,9];
+  var price = [1,2,3,4,5,s6,7,8,9];
   var descriptions = ['Spicy jalapeno bacon ipsum dolor amet tenderloin filet mignon shoulder in jowl deserunt, prosciutto ullamco tongue minim commodo do meatball tail dru'];
   var obj = {
     id : num + 1,
